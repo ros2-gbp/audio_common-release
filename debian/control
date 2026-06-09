@@ -1,0 +1,12 @@
+Source: ros-humble-audio-play
+Section: misc
+Priority: optional
+Maintainer: "Austin Hendrix" <namniart@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-one-ament-cmake, ros-one-audio-common-msgs, ros-humble-ros-workspace
+Homepage: http://ros.org/wiki/audio_play
+Standards-Version: 3.9.2
+
+Package: ros-humble-audio-play
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, gir1.2-gst-plugins-base-1.0, gir1.2-gstreamer-1.0, gstreamer1.0-alsa, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-ugly, gstreamer1.0-tools, libgstreamer-plugins-base1.0-0, libgstreamer-plugins-good1.0-0, libgstreamer1.0-0, ros-humble-launch-xml, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-one-audio-common-msgs, ros-humble-ros-workspace
+Description: Outputs audio to a speaker from a source node.

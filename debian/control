@@ -1,0 +1,12 @@
+Source: ros-humble-sound-play-msgs
+Section: misc
+Priority: optional
+Maintainer: "Shingo Kitagawa" <shingogo.5511@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-action-msgs, ros-humble-builtin-interfaces, ros-humble-rosidl-default-generators, ros-one-ament-cmake, ros-humble-ros-workspace, ros-humble-rosidl-typesupport-fastrtps-c, ros-humble-rosidl-typesupport-fastrtps-cpp
+Homepage: http://ros.org/wiki/sound_play_msgs
+Standards-Version: 3.9.2
+
+Package: ros-humble-sound-play-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-action-msgs, ros-humble-builtin-interfaces, ros-humble-rosidl-default-runtime, ros-humble-ros-workspace
+Description: Messages for transmitting sound via ROS with sound_play

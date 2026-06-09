@@ -1,0 +1,12 @@
+Source: ros-lyrical-audio-common
+Section: misc
+Priority: optional
+Maintainer: "Austin Hendrix" <namniart@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-one-ament-cmake, ros-lyrical-ros-workspace
+Homepage: http://ros.org/wiki/audio_common
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-audio-common
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-sound-play-msgs, ros-one-audio-capture, ros-one-audio-common-msgs, ros-one-audio-play, ros-one-sound-play, ros-lyrical-ros-workspace
+Description: Common code for working with audio in ROS

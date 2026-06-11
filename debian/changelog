@@ -1,0 +1,14 @@
+ros-rolling-sound-play-msgs (0.4.0-2trixie) trixie; urgency=high
+
+  * Merge pull request #267 <https://github.com/ros-drivers/audio_common/issues/267> from knorth55/ros2-fix-rolling
+    replace ament_target_dependencies
+  * remove CMAKE_CXX flags
+  * Merge pull request #264 <https://github.com/ros-drivers/audio_common/issues/264> from knorth55/ros2-sound-play-msgs
+    split sound_play_msgs package
+  * follow review
+  * add sound_play_msgs package
+  * Contributors: Shingo Kitagawa
+
+ -- "Shingo Kitagawa" <shingogo.5511@gmail.com>  Tue, 14 Apr 2026 07:00:00 -0000
+
+

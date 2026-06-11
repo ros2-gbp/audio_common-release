@@ -1,3 +1,32 @@
+## audio_common (rolling) - 0.4.0-2
+
+The packages in the `audio_common` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --ros-distro rolling audio_common -y` on `Thu, 11 Jun 2026 02:34:32 -0000`
+
+These packages were released:
+- `audio_capture`
+- `audio_common`
+- `audio_common_msgs`
+- `audio_play`
+- `sound_play`
+- `sound_play_msgs`
+
+Version of package(s) in repository `audio_common`:
+
+- upstream repository: https://github.com/ros-drivers/audio_common.git
+- release repository: https://github.com/ros2-gbp/audio_common-release.git
+- rosdistro version: `0.4.0-1`
+- old version: `0.4.0-1`
+- new version: `0.4.0-2`
+
+Versions of tools used:
+
+- bloom version: `0.14.3`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.25.1`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## audio_common (lyrical) - 0.4.0-2
 
 The packages in the `audio_common` repository were released into the `lyrical` distro by running `/usr/bin/bloom-release --ros-distro lyrical audio_common -y` on `Thu, 11 Jun 2026 02:32:24 -0000`

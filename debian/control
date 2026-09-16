@@ -1,0 +1,12 @@
+Source: ros-kilted-sound-play-msgs
+Section: misc
+Priority: optional
+Maintainer: "Shingo Kitagawa" <shingogo.5511@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-action-msgs, ros-kilted-ament-cmake, ros-kilted-builtin-interfaces, ros-kilted-rosidl-default-generators, ros-kilted-ros-workspace, ros-kilted-rosidl-typesupport-fastrtps-c, ros-kilted-rosidl-typesupport-fastrtps-cpp
+Homepage: http://ros.org/wiki/sound_play_msgs
+Standards-Version: 3.9.2
+
+Package: ros-kilted-sound-play-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-action-msgs, ros-kilted-builtin-interfaces, ros-kilted-rosidl-default-runtime, ros-kilted-ros-workspace
+Description: Messages for transmitting sound via ROS with sound_play

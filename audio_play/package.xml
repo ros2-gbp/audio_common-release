@@ -4,7 +4,7 @@
   schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
    <name>audio_play</name>
-   <version>0.4.0</version>
+   <version>0.4.1</version>
    <description>
       Outputs audio to a speaker from a source node.
    </description>
@@ -17,6 +17,7 @@
    <url type="bugtracker">https://github.com/ros-drivers/audio_common/issues</url>
 
    <buildtool_depend>ament_cmake</buildtool_depend>
+   <buildtool_depend>pkg-config</buildtool_depend>
 
    <build_depend>audio_common_msgs</build_depend>
    <build_depend>boost</build_depend>
